@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="PlayTime">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/" source-path="/build"/>
+        <wb-resource deploy-path="/" source-path="/src"/>
+                
+        <dependent-module archiveName="mysql-connector-java-5.1.15-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Evver_X/Documents/eclipse/plugins/mysql-connector-java-5.1.15-bin.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="org.eclipse.jst.server.tomcat.core_1.1.1600.v202108150223.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Evver_X/Documents/eclipse/plugins/org.eclipse.jst.server.tomcat.core_1.1.1600.v202108150223.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="org.eclipse.jst.server.tomcat.ui_1.1.1000.v202104010136.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Evver_X/Documents/eclipse/plugins/org.eclipse.jst.server.tomcat.ui_1.1.1000.v202104010136.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                                
+        
+        
+        <property name="context-root" value="PlayTime"/>
+                                
+        
+        
+        <property name="java-output-path" value="/PlayTime/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
